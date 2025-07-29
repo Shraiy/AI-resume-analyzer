@@ -6,3 +6,5 @@ sentence-transformers
 torch
 scikit-learn
 pdfkit
+streamlit
+requests
