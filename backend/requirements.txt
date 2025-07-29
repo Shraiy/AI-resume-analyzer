@@ -1,8 +1,0 @@
-fastapi
-uvicorn
-python-multipart
-PyMuPDF
-sentence-transformers
-torch
-scikit-learn
-pdfkit
