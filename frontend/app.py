@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-BACKEND_URL = "https://ai-resume-analyzer-axpt.onrender.com"  # Replace with your deployed Render URL
+BACKEND_URL = "https://ai-resume-analyzer-smbw.onrender.com"  # Replace with your deployed Render URL
 
 st.title("🧠 AI Resume Analyzer")
 st.write("Upload your resume and paste a job description to get AI-powered insights.")
