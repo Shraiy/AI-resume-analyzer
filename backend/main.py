@@ -3,10 +3,10 @@
 from fastapi import FastAPI, UploadFile, Form
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
-from backend.resume_matcher import extract_text_from_pdf, get_similarity_score
-from backend.log_writer import save_analysis_log
-from backend.resume_tips import generate_tips
-from backend.pdf_exporter import export_resume_with_tips
+from resume_matcher import extract_text_from_pdf, get_similarity_score
+from log_writer import save_analysis_log
+from resume_tips import generate_tips
+from pdf_exporter import export_resume_with_tips
 import uvicorn
 
 app = FastAPI()
